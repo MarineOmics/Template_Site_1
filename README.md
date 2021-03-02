@@ -1,2 +1,2 @@
-# Template_Site_1.github.io
+# Template_Site_1
 Test site option 1
