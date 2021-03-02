@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About"
-nav_order: 2
+nav_order: 1
 ---
 
 ```{r setup, include=FALSE}
@@ -39,7 +39,7 @@ KnitPost <- function(input, base.url = my.jekyll.site) {
   knit(input, envir = parent.frame())
 }
 
-setwd("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/pages/")
-KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/pages/about.Rmd")
+setwd("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/about/")
+KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/about/about.Rmd")
 
 ```
