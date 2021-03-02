@@ -3,5 +3,5 @@ remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 
 aux_links:
-  "Just the Docs on GitHub":
+  "MarineOmics on GitHub":
     - "https://github.com/MarineOmics"
