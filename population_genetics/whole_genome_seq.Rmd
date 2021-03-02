@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "Functional Genomics"
+title: "Whole Genome Sequencing"
 nav_order: 2
+parent: Population Genetics
 has_children: true
 ---
 
@@ -9,7 +10,7 @@ has_children: true
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Functional Genomics
+# Whole Genome Sequencing
 
 
 
@@ -28,8 +29,7 @@ KnitPost <- function(input, base.url = my.jekyll.site) {
   knit(input, envir = parent.frame())
 }
 
-setwd("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/functional_genomics/")
-KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/functional_genomics/functional_genomics.Rmd")
+KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/population_genetics/whole_genome_seq.Rmd")
 
 ```
 

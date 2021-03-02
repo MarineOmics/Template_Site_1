@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "Functional Genomics"
+title: "Population Genetics"
 nav_order: 4
+has_children: true
 ---
 
 ```{r setup, include=FALSE}
