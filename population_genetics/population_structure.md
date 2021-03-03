@@ -19,5 +19,7 @@ Perform population structure analyses with [PCAngsd](http://www.popgen.dk/softwa
 
 [Example with Pacific herring](population_genetics/vignettes/Pacific_Herring_population_strucutre.html)
 
+[Example with Pacific herring]({{ marineomics.github.io/Template_Site_1/ }}{% link population_genetics/Pacific_Herring_population_strucutre.html %})
+
 
 
