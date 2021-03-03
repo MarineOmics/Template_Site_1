@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Population Genetics"
-nav_order: 4
+title: "Low Coverage"
+parent: Whole Genome Sequencing
 has_children: true
 ---
 
@@ -9,11 +9,7 @@ has_children: true
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Population Genetics
-
-Check out [Quality Control and Filtering](https://marineomics.github.io/Template_Site_1/Quality_Control_and_Filtering.html)
-
-General introduction to whole genome sequencing and reduced representation sequencing. Pros and Cons for each.
+# Low Coverage
 
 
 
@@ -32,8 +28,7 @@ KnitPost <- function(input, base.url = my.jekyll.site) {
   knit(input, envir = parent.frame())
 }
 
-setwd("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/population_genetics/")
-KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/population_genetics/population_genetics.Rmd")
+KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/population_genetics/low_coverage.Rmd")
 
 ```
 

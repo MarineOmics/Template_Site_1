@@ -1,17 +1,20 @@
 ---
 layout: default
-title: "Whole Genome Sequencing"
-parent: Population Genetics
-has_children: true
+title: "Quality Control and Filtering"
+nav_order: 5
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Whole Genome Sequencing
+# Quality Control and Filtering
 
-Description of low vs. high coverage
+Describe general considerations and link to `.fastq` to `.vcf` pipelines for specific -omics data types.
+
+Describe common file formats?
+
+
 
 
 
@@ -28,7 +31,6 @@ KnitPost <- function(input, base.url = my.jekyll.site) {
   knit(input, envir = parent.frame())
 }
 
-KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/population_genetics/whole_genome_seq.Rmd")
+KnitPost("C:/Users/jmcgirr/Documents/GitHub/MarineOmics/Template_Site_1.github.io/quality_control/quality_control.Rmd")
 
 ```
-
