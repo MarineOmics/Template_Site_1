@@ -2,6 +2,7 @@
 layout: default
 title: "Population Structure"
 parent: Low Coverage
+grand_parent: Whole Genome Sequencing
 has_children: true
 ---
 
